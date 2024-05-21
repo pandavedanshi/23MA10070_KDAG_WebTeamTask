@@ -30,6 +30,9 @@ after entering then see the baar above and go to all sections (about, blogs, cou
 BEFORE RUNNING THE CODE INSTALL THE FOLLOWING IN THE TERMINAL:
 
 npm install
+
+
+
 else{
 npx install @tsparticles/react
 npx install @tsparticles/all
