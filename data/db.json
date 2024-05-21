@@ -1,0 +1,33 @@
+
+{
+    "blogs": [
+        {
+            "title": "Machine Learning",
+            "body": "Team KDAG",
+            "author": "Team Kdag",
+            "id": 1
+            
+        },
+        {
+            "title": "Learning AI",
+            "body": "Team KDAG",
+            "author": "Team Kdag",
+            "id": 2
+            
+        },
+        {
+            "title": "Data Analysis",
+            "body": "Team KDAG",
+            "author": "Team Kdag",
+            "id": 3
+            
+        },
+        {
+            "title": "ML for Astronomy",
+            "body": "Team KDAG",
+            "author": "Team Kdag",
+            "id": 4
+            
+        }
+    ]
+}

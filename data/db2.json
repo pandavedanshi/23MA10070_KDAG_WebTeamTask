@@ -1,0 +1,38 @@
+{
+    "cources": [
+        {
+            "title": "WINTER WORKSHOP ON ML",
+            "id": 1,
+            "frequency": true,
+            "description": "weekly ML workshop"
+        },
+        
+        {
+            "title": "DATA SCIENCE LECTURES",
+            "id": 2,
+            "frequency": false,
+            "description": "Students will learn DATA SCIENCE"
+        },
+
+        {
+            "title": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+            "id": 3,
+            "frequency": true,
+            "description": "introduction to AI and it's application"
+        },
+
+        {
+            "title": "DATA ANALYTICS AND IT'S APPLICATION",
+            "id": 4,
+            "frequency": false,
+            "description": "students will know more about Data Analytics and expand their knowledge"
+        },
+
+        {
+            "title": "ML AND AI IN DATA ANALYSIS",
+            "id": 5,
+            "frequency": true,
+            "description": "how ML and AI help in Data Analysis"
+        }
+    ]
+}

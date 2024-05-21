@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color:#333;
+    /* background-color: white; */
+    position: relative;
+    
+    
+    
+}
+
+.navbar {
+  background-color: white;
+     padding: 20px;
+     display: flex;
+     align-items: center;
+     max-width: 100%;
+     margin: 0;
+     /* border-bottom: 1px solid #f2f2f2; */
+     background-image: url("./ML.jpg");
+     
+}
+
+.navbar h1 {
+    color: #f1356d
+}
+
+.navbar .links {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.navbar .links:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.navbar a:hover {
+    color: #f1356d
+}
+
+.content {
+    max-width: 600px;
+  
+    max-width: 100%;
+    position: relative;
+    
+    
+}
+
+.home h2 {
+  color: #fff;
+  background-color: #333;
+  
+}
+
+.bl {
+  background-color: none;
+}
+
+/* blog previewa/list */
+.blog-preview {
+    
+  padding: 10px 16px;
+  margin: 20px 0;
+  background-color: yellow;
+  text-align: center;
+  border: 10px  black;
+  position: relative;
+  margin: 200px 500px;
+  height: 200px;
+  border-radius: 30px;
+  width: 500px;
+  background-image: url("./ML.jpg");
+  
+}
+
+.blog-preview:hover {
+    box-shadow: 1px 3px 5px rgba(227, 41, 41, 0.1);
+    text-decoration: wavy;
+    box-shadow: 4px 7px grey;
+    
+
+}
+
+.blog-preview h2 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: solid;
+    background-color: #333;
+    text-align: center;
+    border-width: 100px;
+    margin: 20px;
+    
+}
+
+.blog-preview p {
+  color:#fff;
+  margin-bottom: 10px;
+  text-decoration: solid;
+  background-color: #333;
+  text-align: center;
+  border-width: 100px;
+  margin: 20px;
+
+}
+
+.blog-preview a {
+    text-decoration: wavy;
+}
+
+.bl h2 {
+  color:#ddd;
+  text-align: center;
+}
+.create {
+    max-width: 400px;
+    margin: 70px auto;
+    text-align: center;
+    
+    
+}
+
+.create h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+    
+    max-width: 100%;
+}
+
+.create input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border:1px solid white;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+.create label {
+  color:#fff;
+  font-size:28px;
+}
+
+.create button {
+    background:#f1356d;
+    color:white;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:28px;
+}
+
+.home {
+  background-color: none;
+}
+
+.blog-details {
+  text-align: center;
+  background-color: #ddd;
+  
+}
+
+.cource-preview {
+  padding: 10px 16px;
+  /* margin: 20px 0; */
+  color:#fff;
+  text-align: center;
+  border: 10px solid white;
+  box-shadow: 4px 7px wheat;
+  position: relative;
+  margin: 60px 500px;
+  height: 90px;
+  border-radius: 30px;
+  width: 500px;
+  display: inline-flex;
+}
+
+.cource-preview h2 {
+  color: white;
+}
+
+.cource-preview p {
+  color: whitesmoke;
+}
+
+.cource-preview:hover {
+  box-shadow: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.filter-area {
+  background-color: #fff;
+  padding: 2px 20px;
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 2px;
+  border: black 2px solid
+}
+
+.filter-area select {
+  margin: 10px;
+}
+
+.cource-details {
+  text-align: center;
+  background-color: #ddd;
+}
+
+.cource-preview h2{
+  text-decoration: none;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  color:#fff;
+}
+
+.about h1 {
+  color:#fff;
+}
+
+.about p {
+  color:#fff;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.videos {
+  text-align: center;
+}
+
+.videos h2{
+  color:#fff;
+  margin:20px;
+}
+
+.video a{
+  border: 20px;
+  color: "white";
+  background-Color: '#f1356d';
+  
+  cursor: "pointer"
+}
+
+.videos img {
+  align-items: center;
+}
+
+#particles canvas {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
